@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100VH;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    /* margin: 10px; */
+
+}
+
+button{
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    width: 150px;
+    border-style: none;
+}
+svg{
+    padding: 20px;
+}
+
+.firstContainer .firstContainerButton{
+    color: hsl(31, 77%, 52%) ;
+    font-weight: bold;
+}
+
+.secondContainer .secondContainerButton{
+    color: hsl(184, 100%, 22%) ;
+    font-weight: bold;
+}
+
+.thirdContainer .thirdContainerButton{
+    color: hsl(179, 100%, 13%) ;
+    font-weight: bold;
+}
+
+.firstContainer{
+    background-color: hsl(31, 77%, 52%);
+    /* padding: 15px; */
+    width: 100%;
+    height: auto;
+
+}
+.secondContainer{
+    /* padding: 15px; */
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+    height: auto;
+
+}
+
+.thirdContainer{
+    background-color: hsl(179, 100%, 13%);
+    /* padding: 15px; */
+    width: 100%;
+    height: auto;
+}
