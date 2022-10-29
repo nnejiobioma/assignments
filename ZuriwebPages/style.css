@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/Container2.jpg);
+    /* opacity: 0.5; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 25px;
+    background-image: url(Images/RegistrationForm.jpg);
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=country],
+input[type=date],
+input[type=color] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 1px;
+    background: none;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 1px;
+    background: none;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=country]:focus {
+    background-color: rgb(245, 241, 241);
+    outline: none;
+}
+
+.registerbtn {
+    background-color: #150722;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 25px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+footer {
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
